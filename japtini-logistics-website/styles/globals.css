@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'inter-regular';
+  src: url('/fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'inter-semi';
+  src: url('/fonts/Inter-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'konnect-regular';
+  src: url('/fonts/Konnect-Regular.otf');
+}
+@font-face {
+  font-family: 'raleway-regular';
+  src: url('/fonts/Raleway-Regular.ttf');
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+	background-color: #F4F5F7;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #F7941D;
+    border-radius: 8px;
+}
+
+
+
+
+
